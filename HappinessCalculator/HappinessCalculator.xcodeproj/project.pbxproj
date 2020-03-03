@@ -14,6 +14,8 @@
 		3E25715723E8AA4600B46A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E25715523E8AA4600B46A4C /* LaunchScreen.storyboard */; };
 		3E25716123E9D52200B46A4C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25716023E9D52200B46A4C /* Entry.swift */; };
 		3E25716423E9E99E00B46A4C /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E25716323E9E99E00B46A4C /* EntryController.swift */; };
+		4EB60B50240ECD3E00C3274E /* EntryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB60B4F240ECD3E00C3274E /* EntryCellTableViewCell.swift */; };
+		4EB60B52240ED09200C3274E /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB60B51240ED09200C3274E /* EntryListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3E25715823E8AA4600B46A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E25716023E9D52200B46A4C /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		3E25716323E9E99E00B46A4C /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		4EB60B4F240ECD3E00C3274E /* EntryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EntryCellTableViewCell.swift; path = "Model Controlles/EntryCellTableViewCell.swift"; sourceTree = "<group>"; };
+		4EB60B51240ED09200C3274E /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		3E040E9423EA0BDE000CC230 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4EB60B51240ED09200C3274E /* EntryListTableViewController.swift */,
 				3E040E9923EA175A000CC230 /* SubViews */,
 			);
 			path = ViewControllers;
@@ -112,6 +117,7 @@
 		3E25716223E9E99100B46A4C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4EB60B4F240ECD3E00C3274E /* EntryCellTableViewCell.swift */,
 				3E040E9423EA0BDE000CC230 /* ViewControllers */,
 				3E040E9323EA0BD4000CC230 /* Model Controlles */,
 			);
@@ -199,8 +205,10 @@
 			files = (
 				3E25716123E9D52200B46A4C /* Entry.swift in Sources */,
 				3E25714B23E8AA4200B46A4C /* AppDelegate.swift in Sources */,
+				4EB60B52240ED09200C3274E /* EntryListTableViewController.swift in Sources */,
 				3E25716423E9E99E00B46A4C /* EntryController.swift in Sources */,
 				3E25714D23E8AA4200B46A4C /* SceneDelegate.swift in Sources */,
+				4EB60B50240ECD3E00C3274E /* EntryCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
